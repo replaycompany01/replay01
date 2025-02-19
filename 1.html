@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunFact Music</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #1a1a3d, #34346b);
+            color: #a3c3ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.1);
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .dropdown-content a {
+            color: #a3c3ff;
+            padding: 5px 0;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .content {
+            margin-top: 50px;
+            text-align: left;
+            padding-left: 50px;
+        }
+        .artist-card {
+            display: inline-block;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            position: relative;
+        }
+        .artist-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+        .hidden-text {
+            display: none;
+            margin-top: 15px;
+            font-size: 18px;
+            color: #fff;
+        }
+        .firework {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: gold;
+            border-radius: 50%;
+            opacity: 0;
+            animation: explode 1s linear;
+        }
+        @keyframes explode {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(5); opacity: 0; }
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span>TRANG CHỦ</span>
+        <div class="dropdown">
+            <span>HIPHOP ▼</span>
+            <div class="dropdown-content">
+                <a href="artist1.html">Artist 1</a>
+                <a href="artist2.html">Artist 2</a>
+                <a href="artist3.html">Artist 3</a>
+                <a href="artist4.html">Artist 4</a>
+                <a href="artist5.html">Artist 5</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>POP ▼</span>
+            <div class="dropdown-content">
+                <a href="artist6.html">Artist 1</a>
+                <a href="artist7.html">Artist 2</a>
+                <a href="artist8.html">Artist 3</a>
+                <a href="artist9.html">Artist 4</a>
+                <a href="artist10.html">Artist 5</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>BALLAD ▼</span>
+            <div class="dropdown-content">
+                <a href="artist11.html">Artist 1</a>
+                <a href="artist12.html">Artist 2</a>
+                <a href="artist13.html">Artist 3</a>
+                <a href="artist14.html">Artist 4</a>
+                <a href="artist15.html">Artist 5</a>
+            </div>
+        </div>
+        <span>FUNFACT</span>
+    </div>
+    
+    <h1 style="text-align: center;">⭐ FUNFACT ⭐</h1>
+    <div class="content">
+        <div class="artist-card" onclick="showText(event)">
+            <h2>ERIK</h2>
+            <p>ARTIST</p>
+            <img src="image.png" alt="Erik Artist">
+            <p class="hidden-text" id="funFactText">🔸 Erik debut dưới trướng St.319 trong nhóm nhạc MONSTAR, nhưng chỉ sau 1 năm đã tuyên bố rời nhóm.<br>
+🔸 Drama nổ ra khi công ty tố Erik "vô ơn, phá hợp đồng, đòi cát-xê cao", còn Erik lại nói mình bị quản lý bóc lột, hạn chế sáng tạo.<br>
+🔸 Fan chia hai phe tranh cãi, nhưng cuối cùng Erik rời đi và phát triển solo thành công với Ghen, Có Tất Cả Nhưng Thiếu Anh...</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>@replay.music.com</p>
+        <p>🌎 Instagram | Twitter | LinkedIn</p>
+    </div>
+    
+    <script>
+        function showText(event) {
+            var text = document.getElementById("funFactText");
+            text.style.display = text.style.display === "none" ? "block" : "none";
+            
+            for (let i = 0; i < 20; i++) {
+                let firework = document.createElement("div");
+                firework.classList.add("firework");
+                firework.style.left = (event.clientX + Math.random() * 100 - 50) + "px";
+                firework.style.top = (event.clientY + Math.random() * 100 - 50) + "px";
+                document.body.appendChild(firework);
+                setTimeout(() => firework.remove(), 1000);
+            }
+        }
+    </script>
+</body>
+</html>
