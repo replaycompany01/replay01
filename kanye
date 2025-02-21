@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web giới thiệu về Kanye West - Thiên tài và kẻ nổi loạn của Hip-Hop">
+    <meta name="keywords" content="Kanye West, Hip-Hop, Rap, Nhạc, Giải thưởng, Hành trình sự nghiệp">
+    <title>Kanye West - Biography</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        p, h3, li {color: floralwhite;}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #80b3ff;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #1a1a2e;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #80b3ff;
+            transition: color 0.3s;
+        }
+        nav ul li:hover {
+            color: #ffcc00;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            background-color: rgba(26, 26, 46, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 90%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .image img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #1a1a2e;
+            text-align: center;
+            padding: 20px 0;
+            color: #80b3ff;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #80b3ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #1a1a2e;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #80b3ff;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .dropdown-content a:hover {
+            background-color: #302b63;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>TRANG CHỦ</li>
+                <li class="dropdown">HIPHOP
+                    <div class="dropdown-content">
+                        <a href="kendrick lamar.html">Kendrick Lamar</a>
+                        <a href="kanye.html">Kanye West</a>
+                    </div>
+                </li>
+                <li>POP</li>
+                <li>BALLAD</li>
+                <li>FUNFACT</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="text">
+                <H1>KANYE WEST – THIÊN TÀI & KẺ NỔI LOẠN CỦA HIP-HOP</H1>
+            </div>
+        </section>
+        <section class="BIO">
+            <div class="text">
+                <h2>THÔNG TIN CHUNG</h2>
+                <p><strong>Tên thật:</strong> Kanye Omari West</p>
+                <p><strong>Nghệ danh:</strong> Kanye West (Ye)</p>
+                <p><strong>Ngày sinh:</strong> 08/06/1977</p>
+                <p><strong>Quê quán:</strong> Chicago, Illinois, Mỹ</p>
+                <p><strong>Nghề nghiệp:</strong> Rapper, nhà sản xuất âm nhạc, nhà thiết kế thời trang, doanh nhân</p>
+                <p><strong>Biệt danh: </STRONG>Yeezy, Ye, Louis Vuitton Don</P>
+                <p>Kanye West không chỉ là một rapper xuất sắc mà còn là một trong những nghệ sĩ có ảnh hưởng lớn nhất trong lịch sử hip-hop. Từ một nhà sản xuất tài năng trở thành rapper vĩ đại, rồi đến doanh nhân và biểu tượng văn hóa, Kanye luôn đi đầu trong những cuộc cách mạng về âm nhạc và phong cách.</p>
+            </div>
+            <div class="image">
+                <img src="kanye1.jpg" alt="Kanye West">
+            </div>
+        </section>
+        
+        <section class="career">
+            <div class="text">
+                <h2>HÀNH TRÌNH SỰ NGHIỆP</h2>
+                <p>Kanye West bắt đầu sự nghiệp với vai trò nhà sản xuất cho Roc-A-Fella Records, nơi anh góp công lớn vào thành công của Jay-Z với album <strong>The Blueprint</strong> (2001). Nhưng tham vọng của Kanye không dừng lại ở sản xuất – anh muốn trở thành một rapper thực thụ.</p>
+                    <li><strong>2004:</strong> Ra mắt album đầu tay <i><strong>The College Dropout</strong></i>, mang đến một làn gió mới với phong cách soul-sampling độc đáo. Album này ngay lập tức đưa Kanye thành một trong những gương mặt sáng giá của hip-hop.</li>
+                    <li><strong>2007:</strong> <i><strong>Graduation</strong></i> với các hit như <i><strong>Stronger</strong></i> giúp Kanye vượt xa hip-hop truyền thống, pha trộn giữa rap và electronic.</li>
+                    <li><strong>2008:</strong> <i><strong>808s & Heartbreak</strong></i> gây tranh cãi nhưng sau này lại trở thành album tiên phong trong việc đưa auto-tune vào rap.</li>
+                    <li><strong>2010:</strong> <i><strong>My Beautiful Dark Twisted Fantasy</strong></i> được coi là kiệt tác, đánh dấu giai đoạn đỉnh cao của Kanye với sự kết hợp hoàn hảo giữa âm nhạc và hình ảnh.</li>
+                    <li><strong>2013:</strong> <i><strong>Yeezus</strong></i> thử nghiệm với industrial rap, mang phong cách tối giản và nổi loạn.</li>
+                    <li><strong>2016 - 2022:</strong> Kanye tiếp tục đổi mới với <i><strong>The Life of Pablo</strong></i>, <i><strong>Ye</strong></i>, <i><strong>Jesus Is King</strong></i> và <i><strong>Donda</strong></i>.</li>
+                    <li><strong>2024:</strong> Phát hành album <i><strong>Vultures</strong></i> với sự kết hợp cùng Ty Dolla $ign, tiếp tục khẳng định vị trí của mình trong làng nhạc.</li>
+                    <li></li>
+                </div>
+            </div>
+            <div class="image">
+                <img src="kanye2.jpg" alt="Kanye's Career">
+            </div>
+        </section>
+        
+        <section class="music-style">
+            <div class="text">
+                <h2>PHONG CÁCH RAP VÀ ĐẶC TRƯNG ÂM NHẠC</h2>
+                <p>Kanye West không gò bó bản thân trong một phong cách cố định. Mỗi album của anh đều mang một màu sắc khác nhau, tạo ra sự thay đổi lớn trong làng hip-hop.</p>
+                <P><strong>Những điểm đặc trưng của Kanye</strong></P>
+                <li><strong>Sáng tạo không giới hạn:</strong> Từ soul sample (The College Dropout), synth-heavy (Graduation), cho đến auto-tune (808s & Heartbreak), Kanye luôn tìm cách làm mới chính mình.</li>
+                <li><strong>Chơi chữ sắc bén & thông điệp sâu sắc:</strong> Không chỉ rap về tiền bạc và danh vọng, Kanye còn bàn về chính trị, phân biệt chủng tộc, và tâm lý con người.</li>
+                <li><strong>Khả năng sản xuất âm nhạc thiên tài:</strong> Anh đã cách mạng hóa việc sử dụng sample trong hip-hop, kết hợp giữa nhạc soul, rock và electronic để tạo ra những âm thanh mang dấu ấn riêng.</li>
+            </div>
+            <div class="image">
+                <img src="kanye3.jpg" alt="Kanye's Music Style">
+            </div>
+        </section>
+        
+        <section class="lyrics">
+            <div class="text">
+                <h2>CHỦ ĐỀ & LYRIC</h2>
+                <p><strong>Chủ đề âm nhạc của Kanye West xoay quanh:</strong></p>
+                <h3>1. Xã hội và phân biệt chủng tộc:</h3>
+
+                <li> Kanye thường xuyên đề cập đến tình trạng phân biệt chủng tộc trong xã hội Mỹ. <i><strong>Jesus Walks</strong></i> là một ví dụ điển hình, nơi anh thể hiện niềm tin vào Chúa nhưng cũng phản ánh sự bất công mà người da màu phải đối mặt. Trong <i><strong>Black Skinhead</strong></i>, Kanye sử dụng flow mạnh mẽ cùng tiếng trống dồn dập để phản ánh sự tức giận trước tình trạng bất bình đẳng. Một ví dụ khác là <i><strong>New Slaves</strong></i>, nơi Kanye chỉ trích sự kiểm soát của các tập đoàn lớn đối với người da màu.</li>
+
+                <h3><strong>2. Tâm lý và sức khỏe tinh thần:</strong></h3>
+
+                <li> <i><strong>808s & Heartbreak</strong></i> là album cá nhân nhất của Kanye, khai thác nỗi đau mất mẹ và sự cô đơn của anh sau chia tay. Ca khúc <i><strong>Runaway</strong></i> trong <i><strong>My Beautiful Dark Twisted Fantasy</strong></i> cũng là một lời tự sự về những sai lầm và sự tự hủy hoại của bản thân. Trong <i><strong>FML</strong></i> (album <i><strong>The Life of Pablo</strong></i>), Kanye thẳng thắn nói về cuộc đấu tranh với bệnh tâm lý và áp lực danh vọng. Đặc biệt, trong <i><strong>Ghost Town</strong></i>, Kanye thể hiện cảm giác lạc lõng và khao khát được tự do khỏi những ràng buộc xã hội.</li>
+                <H3><strong>3. Sự nghiệp & bản ngã: </strong></H3>
+                    <li>Kanye luôn tự tin (thậm chí là kiêu ngạo) về bản thân, thể hiện qua những track như <i><strong>Power</strong></i> hay <i><strong>Can't Tell Me Nothing</strong></i>, nơi anh nhấn mạnh sự vươn lên từ nghèo khó đến thành công. Trong <i><strong>I Am A God</strong></i>, Kanye thể hiện sự ngông cuồng của mình nhưng đồng thời cũng phản ánh áp lực của việc trở thành một biểu tượng. <i><strong>Stronger</strong></i> không chỉ là một banger club mà còn thể hiện tinh thần không khuất phục của Kanye trong ngành công nghiệp âm nhạc.</li>
+                <H3><strong>4. Tôn giáo và niềm tin:</strong></H3>
+                <LI>Album <i><strong>Donda</strong></i> cho thấy Kanye ngày càng quan tâm đến tâm linh, với những track như <i><strong>Jail</strong></i> và <i><strong>Hurricane</strong></i> mang đậm tinh thần gospel. <i><strong>Ultralight Beam</strong></i> trong <i><strong>The Life of Pablo</strong></i> cũng là một ca khúc mang tính tôn giáo cao, nơi Kanye tìm kiếm sự dẫn lối từ Chúa. <i><strong>Jesus Is King</strong></i> hoàn toàn tập trung vào chủ đề tôn giáo, với những bài như <i><strong>Follow God</strong></i> và <i><strong>Closed on Sunday</strong></i> nhấn mạnh lòng trung thành với Chúa.</li>
+
+                <P><strong>Lyric và cách viết nhạc:</strong></P>
+                <li>Kanye có khả năng kể chuyện mạnh mẽ, sử dụng phép ẩn dụ và chơi chữ thông minh. Ví dụ, trong <i><strong>Diamonds from Sierra Leone</strong></i>, anh không chỉ nói về thành công cá nhân mà còn ẩn ý về việc khai thác lao động trẻ em trong ngành công nghiệp kim cương.</li>
+                <li>Anh thường viết nhạc theo dạng "stream of consciousness" (dòng suy nghĩ), kết hợp nhiều chủ đề khác nhau trong cùng một bài.</li>
+                <li>Không ngại châm biếm xã hội, văn hóa pop, và chính bản thân mình, làm cho nhạc của anh vừa hài hước vừa sâu sắc. <i><strong>Gold Digger</strong></i> không chỉ là một bài hit về chuyện tình tiền bạc, mà còn là lời chỉ trích ngầm về sự thực dụng trong xã hội.</li>
+            </div>
+            <div class="image">
+                <img src="kanye4.jpg" alt="Kanye's Lyrics">
+                <img src="kanyea.jpg" alt="Kanye's Lyrics">
+            </div>
+        </section>
+        
+        <section class="impact">
+            <div class="text">
+                <h2>Kanye và cuộc cách mạng âm nhạc</h2>
+                <p>Kanye West không chỉ sáng tạo, mà còn định nghĩa lại hip-hop qua từng giai đoạn. Anh không đơn thuần là một rapper, mà là một người cách mạng âm nhạc.</p>
+                <p><strong>Tầm ảnh hưởng và cách mạng của Kanye:</strong></p>
+                <li><strong>Tái định nghĩa nhạc rap bằng soul-sampling:</strong> Kanye sử dụng kỹ thuật sample từ các bài hát soul cổ điển như trong <i><strong>Through the Wire</strong></i>, <i><strong>Slow Jamz</strong></i> và <i><strong>Gold Digger</strong></i>, giúp tạo ra một phong cách rap mới, không cần dựa vào gangsta rap.</li>
+                <li><strong>Mở đường cho rap melodic:</strong> Với <i><strong>808s & Heartbreak</strong></i>, Kanye đã biến auto-tune thành một công cụ biểu đạt cảm xúc thay vì chỉ là kỹ thuật chỉnh giọng, ảnh hưởng trực tiếp đến nghệ sĩ như Drake, Travis Scott và Juice WRLD.</li>
+                <li><strong>Cách mạng hóa cách sản xuất album:</strong> <i><strong>My Beautiful Dark Twisted Fantasy</strong></i> là một album đột phá với cách Kanye sắp xếp từng yếu tố âm nhạc như một bức tranh hoàn chỉnh, mang đến trải nghiệm cinematic chưa từng có trong hip-hop.</li>
+                <li><strong>Đưa gospel vào hip-hop: </strong>Kanye kết hợp nhạc gospel với hip-hop trong <i><strong>Jesus Is King</strong></i> và <i><strong>Donda</strong></i>, tạo ra một làn sóng mới cho rap mang đậm yếu tố tôn giáo.</li>
+                <li><strong>Influence trên văn hóa pop: </strong>Không chỉ trong âm nhạc, phong cách thời trang và tư duy sáng tạo của Kanye cũng có ảnh hưởng lớn, từ Yeezy đến cách thức phát hành album.</li>
+            </div>
+            <div class="image">
+                <img src="kanye5.jpg" alt="Kanye's Impact">
+            </div>
+        </section>
+        
+        <section class="awards">
+            <div class="text">
+                <h2>Giải thưởng và đánh giá</h2>
+                <p>Kanye có 24 giải Grammy, được TIME vinh danh là nhân vật ảnh hưởng nhất...</p>
+            </div>
+            <div class="image">
+                <img src="kanye6.jpg" alt="Kanye's Awards">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@replay.music.com</p>
+        <div class="social-icons">
+            <a href="#">📷 Instagram</a>
+            <a href="#">🐦 Twitter</a>
+            <a href="#">🔗 Website</a>
+        </div>
+    </footer>
+</body>
+</html>
