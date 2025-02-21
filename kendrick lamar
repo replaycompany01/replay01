@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web giới thiệu về Kendrick">
+    <meta name="keywords" content="Kendrick, Hip-Hop, Rap, Nhạc, Giải thưởng, Hành trình sự nghiệp">
+    <title>Kendrick Lamar - Biography</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #80b3ff;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #1a1a2e;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #80b3ff;
+            transition: color 0.3s;
+        }
+        nav ul li:hover {
+            color: #ffcc00;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            background-color: rgba(26, 26, 46, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        .text {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .image {
+            flex: 1;
+            text-align: center;
+        }
+        .image img {
+            max-width: 90%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .image img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #1a1a2e;
+            text-align: center;
+            padding: 20px 0;
+            color: #80b3ff;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #80b3ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #1a1a2e;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #80b3ff;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .dropdown-content a:hover {
+            background-color: #302b63;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>TRANG CHỦ</li>
+                <li class="dropdown">HIPHOP
+                    <div class="dropdown-content">
+                    <a href="kanye.html">Kanye West</a>  
+                    <a href="kendrick lamar.html">Kendrick Lamar</a>
+                    </div>
+                </li>
+                <li>POP</li>
+                <li>BALLAD</li>
+                <li>FUNFACT</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bio">
+            <div class="text">
+                <h1>KENDRICK LAMAR LÀ TÊN TÔI</h1>
